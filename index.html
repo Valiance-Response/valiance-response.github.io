@@ -41,6 +41,32 @@
 </head>
 
 <body>
+   
+<Header>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Valiance Response</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <script>
+   function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+    }
+  </script>
+</Header>    
+    
     
     
     <button type="button" id="view-pdf-btn" onclick="previewFile()" style="cursor: pointer; width: 120px; padding: 10px; font-family: 'Arial'; font-size: 15px; color: #000000; border-radius: 5px; border: 1px #404040; background-color:#fff; margin: 0 0 0 0;" disabled>White paper</button>
