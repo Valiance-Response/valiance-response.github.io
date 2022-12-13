@@ -3,6 +3,9 @@
 
 .site-footer
 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   background-color:#152238;
   padding:45px 0 20px;
   font-size:15px;
