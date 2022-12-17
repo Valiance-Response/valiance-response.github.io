@@ -52,7 +52,7 @@ nav ul li a {
 	font-size:16px;
 }
 nav ul li a:hover {
-	color: #34B484;
+	color: #3366cc;
 }
 /*styling open close button*/
 .button {
@@ -76,7 +76,7 @@ nav ul li a:hover {
 	-o-transition:all .2s linear 0s;
 }
 .btn-open:hover:after {
-	color:#34B484;
+	color:#3366cc;
 }
 .btn-close:after {
 	color:#fff;
@@ -88,7 +88,7 @@ nav ul li a:hover {
 	-o-transition:all .2s linear 0s;
 }
 .btn-close:hover:after {
-	color: #34B484;
+	color: #3366cc;
 }
 /*overlay*/
 .overlay {
