@@ -17,7 +17,6 @@ body{
 /*navigation style */
 ul {
 	margin:0;
-	color:#152238;
 	padding:0;
 	text-decoration:none;
 	list-style:none;
@@ -28,6 +27,7 @@ li {
 }
 nav {
 	text-align:center;
+	background:#152238;
 	width:100%;
 	position:relative;
 	height:auto;
